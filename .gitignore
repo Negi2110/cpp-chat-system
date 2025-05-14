@@ -1,0 +1,38 @@
+# Ignore Visual Studio generated files
+*.obj
+*.exe
+*.pdb
+*.idb
+*.ilk
+*.aps
+*.ncb
+*.sdf
+*.opensdf
+*.suo
+*.VC.db
+*.VC.opendb
+
+# Ignore build and temp files
+Debug/
+Release/
+bin/
+build/
+*.log
+*.tmp
+*.user
+*.cache
+
+# Ignore compiled output
+*.dll
+*.lib
+*.exp
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore JSON backups
+*.json~
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
