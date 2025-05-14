@@ -10,18 +10,7 @@ A multi-client chat system built using C++ and Winsock, where:
 ---
 
 ## 📁 Project Structure
-chat/
-├── client/
-│ ├── Client.cpp
-│ └── Client.h
-├── server/
-│ ├── Server.cpp
-│ └── Server.h
-├── json.hpp // nlohmann::json (single-header library)
-├── main_client.cpp // Entry point for client
-├── main_server.cpp // Entry point for server
-├── README.md
-└── .gitignore
+![alt text](image.png)
 
 ## ⚙️ Features
 
