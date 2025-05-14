@@ -34,7 +34,7 @@ A multi-client chat system built using C++ and Winsock, where:
 
 1. Open `x64 Native Tools Command Prompt` (or Developer Command Prompt).
 2. Navigate to your project folder.
-  -cd C:\Users\your-name\Desktop\chat
+ 
 3.Compile the server
    cl /EHsc main_server.cpp server\Server.cpp /I. /link ws2_32.lib
 4.Compile the client:
