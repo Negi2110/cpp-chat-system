@@ -22,35 +22,6 @@ A multi-client chat system built using C++ and Winsock, where:
 
 ---
 
-## 🚀 How to Build
-
-### 🛠 Prerequisites
-
-- Windows OS
-- [Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
-- Developer Command Prompt (comes with VS)
-
-### 📦 Compilation
-
-1. Open `x64 Native Tools Command Prompt` (or Developer Command Prompt).
-2. Navigate to your project folder.
- 
-3.Compile the server
-   cl /EHsc main_server.cpp server\Server.cpp /I. /link ws2_32.lib
-4.Compile the client:
-   cl /EHsc main_client.cpp client\Client.cpp /I. /link ws2_32.lib
-
-📡 How to Run
-1.Start the server (on your PC):
-  main_server.exe
-2.Start client(s) (on same PC or LAN device)
-  main_client.exe
-
-📥 Sample Input Format
-From Server to specific client by ID:
-      /send 2 Hello Client 2!
-From Server to all clients:
-      Hello everyone!
 
 
 
